@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@react-native-community/blur": "4.3.0",
+    "@react-native-community/picker": "1.6.1",
     "@react-navigation/native": "6.1.6",
     "@shopify/react-graphql": "0.0.0-snapshot-20230110221326",
     "@shopify/restyle": "2.4.1",
