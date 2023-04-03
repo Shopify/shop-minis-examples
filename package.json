@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "react": "18.2.0",
     "react-native": "0.71.4",
     "react-native-fast-image": "8.6.3",
     "react-native-gesture-handler": "2.9.0",
