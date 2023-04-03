@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@react-navigation/native": "6.1.6",
     "@shopify/react-graphql": "0.0.0-snapshot-20230110221326",
     "@shopify/restyle": "2.4.1",
     "apollo-link-timeout": "4.0.0",
