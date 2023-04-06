@@ -15,6 +15,7 @@
     "@react-navigation/native": "6.1.6",
     "@shopify/react-graphql": "0.0.0-snapshot-20230110221326",
     "@shopify/restyle": "2.4.1",
+    "@types/react": "18.0.30",
     "apollo-link-timeout": "4.0.0",
     "color": "4.2.3",
     "react": "18.2.0",
