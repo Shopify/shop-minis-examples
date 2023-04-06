@@ -1,14 +1,13 @@
 {
-  "name": "shop-minis-runtime",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "@shopify/shop-minis-runtime",
+  "version": "0.0.1",
+  "description": "The development runtime for Minis",
+  "publishConfig": {
+    "access": "public",
+    "@shopify:registry": "https://registry.npmjs.org/"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "shopify",
+  "license": "MIT",
   "dependencies": {
     "@react-native-community/blur": "4.3.0",
     "@react-native-community/datetimepicker": "6.7.5",
