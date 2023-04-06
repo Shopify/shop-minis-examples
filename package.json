@@ -1,6 +1,6 @@
 {
   "name": "@shopify/shop-minis-runtime",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The development runtime for Minis",
   "publishConfig": {
     "access": "public",
@@ -16,8 +16,8 @@
     "@react-navigation/native-stack": "6.9.12",
     "@shopify/react-graphql": "0.0.0-snapshot-20230110221326",
     "@shopify/restyle": "2.4.1",
-    "@types/react": "18.0.30",
     "@types/color": "3.0.3",
+    "@types/react": "18.0.30",
     "@types/url-parse": "1.4.3",
     "apollo-link-timeout": "4.0.0",
     "color": "4.2.3",
