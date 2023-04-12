@@ -1,0 +1,17 @@
+name: Check patches compatibility
+on: push
+jobs:
+  build:
+    runs-on: shopify-ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: "yarn"
+
+      - name: Installing dependencies
+        run: yarn install --frozen-lockfile
+      - name: Applying patches
+        run: yarn patch-package --error-on-fail --error-on-warn
