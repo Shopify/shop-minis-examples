@@ -41,5 +41,8 @@
   },
   "resolutions": {
     "@types/react": "^18"
+  },
+  "devDependencies": {
+    "patch-package": "^6.5.1"
   }
 }
