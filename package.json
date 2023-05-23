@@ -54,9 +54,10 @@
     "url-parse": "1.5.10"
   },
   "resolutions": {
-    "@types/react": "^18"
+    "@apollo/federation": "0.38.1"
   },
   "devDependencies": {
-    "patch-package": "^6.5.1"
+    "patch-package": "^6.5.1",
+    "graphql-typescript-definitions": "^3.2.2"
   }
 }
