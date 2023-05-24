@@ -5,10 +5,10 @@ index beb1a29..24c81fa 100644
 @@ -5107,7 +5107,7 @@ var getViewConfigForType =
  // % 2 === 0 means it is a Fabric tag.
  // This means that they never overlap.
- 
+
 -var nextReactTag = 2;
 +var nextReactTag = 999992;
- 
+
  // TODO: Remove this conditional once all changes have propagated.
  if (registerEventHandler) {
 diff --git a/node_modules/react-native/Libraries/Renderer/implementations/ReactFabric-prod.js b/node_modules/react-native/Libraries/Renderer/implementations/ReactFabric-prod.js
@@ -44,10 +44,10 @@ index 6c7116e..f7e90d2 100644
 @@ -5299,7 +5299,7 @@ var UPDATE_SIGNAL = {};
  // % 10 === 1 means it is a rootTag.
  // % 2 === 0 means it is a Fabric tag.
- 
+
 -var nextReactTag = 3;
 +var nextReactTag = 999993;
- 
+
  function allocateTag() {
    var tag = nextReactTag;
 diff --git a/node_modules/react-native/Libraries/Renderer/implementations/ReactNativeRenderer-prod.js b/node_modules/react-native/Libraries/Renderer/implementations/ReactNativeRenderer-prod.js

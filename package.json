@@ -35,7 +35,7 @@
     "lodash": "4.17.21",
     "metro-react-native-babel-preset": "0.76.3",
     "react": "18.2.0",
-    "react-native": "0.71.4",
+    "react-native": "0.71.8",
     "react-native-fast-image": "8.6.3",
     "react-native-gesture-handler": "2.9.0",
     "react-native-linear-gradient": "2.6.2",
