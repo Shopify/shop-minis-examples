@@ -1,6 +1,6 @@
 {
   "name": "@shopify/shop-minis-runtime",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "The development runtime for Minis",
   "publishConfig": {
     "access": "public",
@@ -57,7 +57,7 @@
     "@apollo/federation": "0.38.1"
   },
   "devDependencies": {
-    "patch-package": "^6.5.1",
-    "graphql-typescript-definitions": "^3.2.2"
+    "graphql-typescript-definitions": "^3.2.2",
+    "patch-package": "^6.5.1"
   }
 }
