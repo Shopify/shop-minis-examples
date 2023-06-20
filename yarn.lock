@@ -1695,10 +1695,10 @@
   resolved "https://registry.yarnpkg.com/@shopify/restyle/-/restyle-2.4.2.tgz#bffb5cec619d6ea61e1fab1ec40dec9482946460"
   integrity sha512-r01j9bbXkhZZkGkLnE6jsJvSCkcjwXBySfe8bQCB7duEfQn36mU6WumNc2pndzXpZhPSevppyXzFZ2jY3XUakw==
 
-"@shopify/shop-minis-platform-sdk@0.1.33":
-  version "0.1.33"
-  resolved "https://registry.yarnpkg.com/@shopify/shop-minis-platform-sdk/-/shop-minis-platform-sdk-0.1.33.tgz#bea8825bf17f4c628246ef1a03cd600ebd39fe51"
-  integrity sha512-ToBXkhtFWJCO0qyAX4cR3nnKTMVk7n+2xkdRtdSlOxeRUUYjirRkGHFRj2gvlR7o9moFNQW98PHJvxRvkrlYmA==
+"@shopify/shop-minis-platform-sdk@0.1.36":
+  version "0.1.36"
+  resolved "https://registry.yarnpkg.com/@shopify/shop-minis-platform-sdk/-/shop-minis-platform-sdk-0.1.36.tgz#d50c694555dabccb7111a62c17b257e11f97227e"
+  integrity sha512-bG83Amx17YMwtP2zMCtMenx80c4a6JTscrMrgQN0mpmYvYT68kqjZSVgUVGlEBBmZtUbYqUUTHkdmeYrUdM7uA==
 
 "@shopify/useful-types@^5.1.1", "@shopify/useful-types@^5.1.2":
   version "5.1.2"
