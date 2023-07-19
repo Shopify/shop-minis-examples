@@ -1,6 +1,6 @@
 {
   "name": "@shopify/shop-minis-runtime",
-  "version": "0.0.24",
+  "version": "0.0.25",
   "description": "The development runtime for Minis",
   "publishConfig": {
     "access": "public",
