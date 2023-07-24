@@ -19,6 +19,7 @@
     "@react-native-community/picker": "1.6.1",
     "@react-navigation/native": "6.1.6",
     "@react-navigation/native-stack": "6.9.12",
+    "@shopify/eslint-plugin-shop-minis": "^0.0.4",
     "@shopify/react-graphql": "0.0.0-snapshot-20230110221326",
     "@shopify/restyle": "2.4.2",
     "@shopify/shop-minis-platform-sdk": "0.1.47",
