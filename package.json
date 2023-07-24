@@ -22,7 +22,7 @@
     "@shopify/eslint-plugin-shop-minis": "^0.0.4",
     "@shopify/react-graphql": "0.0.0-snapshot-20230110221326",
     "@shopify/restyle": "2.4.2",
-    "@shopify/shop-minis-platform-sdk": "0.1.47",
+    "@shopify/shop-minis-platform-sdk": "0.1.48",
     "@types/color": "3.0.3",
     "@types/lodash": "4.14.194",
     "@types/react": "18.2.0",
