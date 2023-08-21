@@ -5880,12 +5880,7 @@ lodash.xorby@^4.7.0:
   resolved "https://registry.yarnpkg.com/lodash.xorby/-/lodash.xorby-4.7.0.tgz#9c19a6f9f063a6eb53dd03c1b6871799801463d7"
   integrity sha512-gYiD6nvuQy0AEkMoUju+t4f4Rn18fjsLB/7x7YZFqtFT9kmegRLrj/uGEQVyVDy7otTmSrIMXNOk2wwuLcfHCQ==
 
-lodash@2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-2.3.0.tgz#dfbdac99cf87a59a022c474730570d8716c267dd"
-  integrity sha512-1cKXXnLDXhXBP8H1ZECyE1znMFLUjMiV9WrVx6/Mi8Ocm/wwjuhWNpLFefQdv05+uMtIAdOVPnG3SFxcOUZzBw==
-
-lodash@^4.17.21:
+lodash@4.17.21, lodash@^4.17.21:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
