@@ -1,3 +1,8 @@
+## This repo is deprecated
+
+shop-minis-runtime was moved to the monorepo in https://github.com/shopify/shop-client/
+This repository is no longer used and maintained.
+
 # shop-minis-runtime
 
 shop-minis-runtime is responsible for guaranteeing that the context of Minis in development matches the context provided by Shop in production.
