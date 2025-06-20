@@ -1,38 +1,67 @@
-## This repo is deprecated
+# Shop Minis Examples
 
-shop-minis-runtime was moved to the monorepo in https://github.com/shopify/shop-client/
-This repository is no longer used and maintained.
+This repository showcases examples of Shop Minis.
 
-# shop-minis-runtime
+## About
 
-shop-minis-runtime is responsible for guaranteeing that the context of Minis in development matches the context provided by Shop in production.
+Shop Minis are lightweight, fast-loading components that enable rich shopping experiences. This repository contains various examples demonstrating how to build and integrate Shop Minis into your applications.
 
-## Dependencies
+## Getting Started
 
-Dependencies are provided by Shop itself during production runtime, however, that's not the case when the Mini is executed in a remote setup during development. In those cases, shop-minis-runtime will be the source of truth for which dependencies are available (and which versions they have).
+### Prerequisites
 
-## React context values
+- Node.js (v16 or higher)
+- npm or yarn
 
-React context values are also missing when the Mini is executed in development mode. shop-minis-runtime will expose provider components that mimic the production environment of Shop.
+### Installation
 
-## Metro config
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Shopify/shop-minis-examples.git
+   cd shop-minis-examples
+   ```
 
-To use the metro config exposed in this package you can use this example `metro.config.js` file:
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-```js
-// metro.config.js
-const { getMinisMetroConfig } = require("@shopify/shop-minis-runtime/metro-config");
+3. Run the examples:
+   ```bash
+   npm start
+   ```
 
-module.exports = getMinisMetroConfig();
-```
+## Examples
 
-## Babel preset
+This repository includes examples for:
 
-To use the babel preset exposed in this package you can use this example `babel.config.js` file:
+- Basic Shop Mini implementation
+- Advanced customization options
+- Integration patterns
+- Best practices for performance
 
-```js
-// babel.config.js
-module.exports = {
-  presets: ["@shopify/shop-minis-runtime/babel-preset"],
-};
-```
+## Contributing
+
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details on how to get started.
+
+Before contributing, please read our [Code of Conduct](CODE_OF_CONDUCT.md).
+
+## Support
+
+If you encounter any issues or have questions, please:
+
+1. Check the existing issues in the repository
+2. Create a new issue if your problem hasn't been reported
+3. Reach out to the maintainers
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Acknowledgments
+
+Thank you to all contributors who help make Shop Minis better!
+
+---
+
+Copyright 2024-present, Shopify Inc.
