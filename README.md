@@ -11,7 +11,7 @@ Shop Minis are lightweight, fast-loading components that enable rich shopping ex
 ### Prerequisites
 
 To build Shop Minis, you’ll need:
-- Node.js version 20 of higher
+- Node.js version 20 or higher
 - Xcode or Android Studio
 - A code editor such as Cursor or VSCode
 
