@@ -1,13 +1,12 @@
 {
-  "name": "mini-template",
+  "name": "all-hooks",
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "description": "A Shop Mini with WebView and Vite",
+  "description": "An example Shop Mini",
   "main": "index.tsx",
   "scripts": {
     "start": "shop-minis dev",
-    "dev": "vite --host",
     "lint": "eslint . --ext .ts,.tsx --fix",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
