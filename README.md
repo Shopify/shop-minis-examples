@@ -10,8 +10,11 @@ Shop Minis are lightweight, fast-loading components that enable rich shopping ex
 
 ### Prerequisites
 
-- Node.js (v16 or higher)
-- npm or yarn
+To build Shop Minis, you’ll need:
+- Node.js version 20 or higher
+- Xcode or Android Studio
+- A code editor such as Cursor or VSCode
+
 
 ### Installation
 
@@ -20,25 +23,20 @@ Shop Minis are lightweight, fast-loading components that enable rich shopping ex
    git clone https://github.com/Shopify/shop-minis-examples.git
    cd shop-minis-examples
    ```
-
+   
+2. Go to the Mini you would like to explore. For example:
+   ```bash
+   cd all-hooks
+   ```
 2. Install dependencies:
    ```bash
    npm install
    ```
 
-3. Run the examples:
+3. Run the example:
    ```bash
    npm start
    ```
-
-## Examples
-
-This repository includes examples for:
-
-- Basic Shop Mini implementation
-- Advanced customization options
-- Integration patterns
-- Best practices for performance
 
 ## Contributing
 
