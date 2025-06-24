@@ -33,14 +33,9 @@ assignees: ''
 
 ## 🌍 Environment
 
-**Platform Details:**
-- Device: <!-- e.g., iPhone 14, Samsung Galaxy S23 -->
-- OS Version: <!-- e.g., iOS 17.1, Android 14 -->
+Run `npx shop-minis info` and put the output below:
 
-**Development Environment:**
-- Node.js Version: <!-- e.g., 18.17.0 -->
-- Package Manager: <!-- npm/yarn/pnpm and version -->
-- OS: <!-- e.g., macOS 14.0, Windows 11, Ubuntu 22.04 -->
+
 
 ## 📝 Additional Context
 
