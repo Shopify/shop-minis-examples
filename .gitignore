@@ -4,10 +4,8 @@ build
 .eslintcache
 *.tsbuildinfo
 
-# Shopify specific
-.shopify
-.shopify-cache
-*.shopify.yml
+# Shop Minis cache
+.minis-cache/
 
 # Environment variables
 .env
@@ -49,3 +47,13 @@ out/
 
 # OS files
 Thumbs.db
+
+# API Keys - NEVER commit these!
+*.key
+*.pem
+credentials.json
+api-keys.json
+
+# Local config files that might contain sensitive data
+config.local.js
+config.local.ts 
