@@ -4,7 +4,7 @@ This repository showcases examples of Shop Minis.
 
 ## About
 
-Shop Minis are lightweight, fast-loading components that enable rich shopping experiences. This repository contains various examples demonstrating how to build and integrate Shop Minis into your applications.
+Shop Minis are lightweight, mini apps that enable you to build rich shopping experiences inside Shop.
 
 ## Getting Started
 
@@ -23,7 +23,7 @@ To build Shop Minis, you’ll need:
    git clone https://github.com/Shopify/shop-minis-examples.git
    cd shop-minis-examples
    ```
-   
+
 2. Go to the Mini you would like to explore. For example:
    ```bash
    cd all-hooks
@@ -35,7 +35,7 @@ To build Shop Minis, you’ll need:
 
 3. Run the example:
    ```bash
-   npm start
+   npx shop-minis dev
    ```
 
 ## Contributing
