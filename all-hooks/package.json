@@ -12,7 +12,7 @@
     "format:check": "prettier --check ."
   },
   "dependencies": {
-    "@shopify/shop-minis-react": "0.0.0-snapshot.20250619071813",
+    "@shopify/shop-minis-react": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
