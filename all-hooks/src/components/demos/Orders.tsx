@@ -3,7 +3,6 @@ import {
   useOrders,
   type Order,
   type Money,
-  CurrencyCode,
 } from '@shopify/shop-minis-react'
 
 function formatPrice(money: Money): string {
@@ -119,7 +118,7 @@ export function Orders() {
             }, 0)
             const currency =
               order.lineItems[0]?.product?.price?.currencyCode ||
-              CurrencyCode.USD
+              'USD'
 
             return (
               <div
