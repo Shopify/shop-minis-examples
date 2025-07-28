@@ -1,0 +1,31 @@
+name: Dependency Approval Request
+description: Request approval for an NPM package to be used with the Shop Minis platform
+title: "[DEPENDENCIES] "
+labels: ["dependency-request"]
+body:
+  - type: input
+    id: package-name
+    attributes:
+      label: Package Name
+      description: The exact name of the package as it appears in the registry
+      placeholder: "e.g. lodash"
+    validations:
+      required: true
+
+  - type: input
+    id: package-version
+    attributes:
+      label: Package Version
+      description: The exact version of the package you want to use
+      placeholder: "e.g. 1.2.3"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please explain why this package is needed
+      placeholder: "Describe the purpose and use case for this package"
+    validations:
+      required: true
